@@ -271,9 +271,108 @@ nav a:hover {
     margin-top: 1em;
 }
 
+/*------------------ Page Button ---------------*/
+.page-btn,
+.page-btn.active:hover {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--cl--3--);
+    text-transform: uppercase;
+    border: 2px solid var(--cl--1--);
+    background: var(--cl--1--);
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
-
+.page-btn.active,
+.page-btn:hover {
+    background: transparent;
+    color: var(--cl--1--);
+}
+/*------------------ End Of Page Button ---------------*/
 /*------------------ End Of About ---------------*/
+
+
+/*------------------ Service ---------------*/
+
+
+
+.service, 
+.contact {
+    background: var(--cl--5--);
+    padding: 4em 0;
+    margin: 4em auto;
+}
+
+.s-card {
+    padding: 4em 2em;
+    text-align: center;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.s-card svg {
+    fill: var(--cl--2--);
+    width: 70px;
+    height: auto;
+}
+
+.s-card:nth-of-type(odd) {
+    background: var(--cl--1--);
+}
+
+.s-card:nth-of-type(odd):hover {
+    background: var(--cl--3--);
+}
+
+.s-card:nth-of-type(odd):hover svg {
+    fill: var(--cl--1--);
+}
+
+.s-card:nth-of-type(even) {
+    background: var(--cl--3--);
+}
+
+.s-card:nth-of-type(even) svg {
+    fill: var(--cl--1--);
+}
+
+.s-card:nth-of-type(even):hover {
+    background: var(--cl--1--);
+}
+
+.s-card:nth-of-type(even):hover svg {
+    fill: var(--cl--3--);
+}
+
+.icon {
+    position: relative;
+    padding: 0.5em;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+}
+
+/*------------------ End Of Service ---------------*/
 
 
 
