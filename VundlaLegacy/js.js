@@ -7,10 +7,10 @@ function toggleMenu() {
 }
 // End Of NavBar
 
-// Swiper Slider
+// Swiper Slider 1
 var swiper = new Swiper(".hero", {
     autoplay: {
-        delay: 2500,
+        delay: 3500,
         disableOnInteraction: false,
         },
     navigation: {
