@@ -22,7 +22,7 @@
 </head>
 <body>
     <!----------------Nav Bar--------------------->
-    <header>
+    <header class="row container">
         <a href="#" class="logo"><img src="./imgs/main logo.png" alt="Vundla Legacy Logo"></a>
         <div class="toggleMenu" onclick="toggleMenu();"></div>
         <nav class="navigation row">
@@ -313,6 +313,10 @@
                             </div>
                         </a>
                     </div>
+                    <div class="no-results d-none">
+                        <h2>No results found</h2>
+                        <p>Try to change the filters</p>
+                    </div>
                 </div>
                 <div class="project-arrow row">
                     Next
@@ -328,5 +332,87 @@
         </div>
     </section>
     <!----------------End Of Projects--------------------->
+
+    <!----------------Form--------------------->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h3>What can we do for you?</h3>
+                <p>We are ready to work on project of any complexity, whether it's commercial or residential.</p>
+                <form action="">
+                    <div class="form row">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Email">
+                        <select name="" id="">
+                            <option value="0">Reason For Contacting Us</option>
+                            <option value="1">Construction</option>
+                            <option value="2">Renovations</option>
+                            <option value="3">Foamwork</option>
+                            <option value="4">Roofing</option>
+                            <option value="5">Tiling</option>
+                            <option value="6">Painting</option>
+                            <option value="7">Electric wiring</option>
+                            <option value="8">Consultation</option>
+                        </select>
+                        <input type="tel" name="" id="" placeholder="Phone">
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write in details..."></textarea>
+                        <p>* Indicates a required field.</p>
+                    </div>
+                    <button type="submit" class="page-btn-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!----------------End Of Form--------------------->
+
+    <!----------------Footer--------------------->
+    <footer>
+        <div class="footer row flex container">
+            <div class="footer-details row">
+                <ul>
+                    <li class="row">
+                        <h5>Address</h5>
+                        <p>Kempton Park, Johannesburg, Gauteng, South Africa</p>
+                    </li>
+                    <li class="row">
+                        <h5>Phone:</h5>
+                        <p>+27 738 480 023</p>
+                    </li>
+                    <li class="row">
+                        <h5>Email:</h5>
+                        <p>sales@vundlalegacy.com</p>
+                    </li>
+                </ul>
+                <a href="#" class="logo"><img src="./imgs/main logo.png" alt=""></a>
+            </div>
+            <div class="footer-content">
+                <h5>Newsletter:</h5>
+                <form action="" class="row">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit" class="page-btn-2">Suscribe</button>
+                </form>
+                <h5>Social</h5>
+                <div class="media-links row">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" id="facebook"><path d="M95 20.001C95 12.119 87.884 5 80 5H20C12.116 5 5 12.119 5 20.001v59.998C5 87.881 12.116 95 20.001 95H50V61H39V46h11v-5.844C50 30.077 57.568 21 66.875 21H79v15H66.875C65.548 36 64 37.611 64 40.024V46h15v15H64v34h16c7.884 0 15-7.119 15-15.001V20.001z"></path></svg> 
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" version="1" id="linkedin"><path d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25H196.064zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475 0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444 0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718-41.704 0-66.562 28.078-77.476 55.202-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854V384.193z"></path></svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" fill="none" viewBox="0 0 512 512" id="twitter"><g clip-path="url(#clip0_84_15697)"><rect width="512" height="512" fill="#000" rx="60"></rect><path fill="#fff" d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"></path></g><defs><clipPath id="clip0_84_15697"><rect width="512" height="512" fill="#fff"></rect></clipPath></defs></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <p>Vundla Legacy &copy; 2024. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!----------------End Of Footer--------------------->
 </body>
 </html>
